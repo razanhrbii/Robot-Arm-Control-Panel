@@ -42,7 +42,7 @@ CREATE TABLE poses (
 ```
 3. Place the project files in the htdocs folder of XAMPP.
 4. Open your browser and navigate to:
-http://localhost/project-folder/index.html
+http://localhost/Task3/ControlP.html
 
 5. You can now:
  • Adjust motor sliders and save poses.
