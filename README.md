@@ -28,7 +28,7 @@ This project is a simple web application that allows users to:
 ## How to Run
 1. Install XAMPP and start Apache & MySQL.
 2. Create a database named robotarm and run the following SQL command:
-
+```sql
 CREATE TABLE poses (
     id INT AUTO_INCREMENT PRIMARY KEY,
     motor1 INT,
@@ -39,7 +39,7 @@ CREATE TABLE poses (
     motor6 INT,
     status TINYINT DEFAULT 0
 );
-
+```
 3. Place the project files in the htdocs folder of XAMPP.
 4. Open your browser and navigate to:
 http://localhost/project-folder/index.html
